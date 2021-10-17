@@ -10,15 +10,51 @@ In this tutorial, we seek to provide a brief overview of the key modelling parad
 
 ## Graph-based modelling
 
-This involves construction of genome-scale metabolic networks (GSMN) consisting of thousands of reactions and metabolites, which capture vital metabolic pathways such as the biosynthesis of amino acids and lipids, ATP synthesis, as well as transport of molecules inside the cells which allows us to model microbial interactions as part of a complex graph capturing the exchange of several metabolites between the constituent organisms, and consequently, shed light on the nature of the interactions between the organisms<sup>14</sup>. This approach provides qualitative insights by considering the topology of the metabolic networks. Here, the metabolic networks are analysed for their ability to produce metabolites. The interdependencies between the organisms are defined based on the metabolites that one organism provides the other. MetQuest, NetSeed, NetCmpt are some of the graph-based modelling tools. This tutorial will introduce you to MetQuest and its applications.
+This involves construction of genome-scale metabolic networks (GSMN) consisting of thousands of reactions and metabolites, which capture vital metabolic pathways such as the biosynthesis of amino acids and lipids, ATP synthesis, as well as transport of molecules inside the cells which allows us to model microbial interactions as part of a complex graph capturing the exchange of several metabolites between the constituent organisms, and consequently, shed light on the nature of the interactions between the organisms<sup>14</sup>. This approach provides qualitative insights by considering the topology of the metabolic networks. Here, the metabolic networks are analysed for their ability to produce metabolites. The interdependencies between the organisms are defined based on the metabolites that one organism provides the other. MetQuest<sup>14</sup>, NetSeed<sup>15</sup>, NetCmpt<sup>16</sup> are some of the graph-based modelling tools. This tutorial will introduce you to MetQuest and its applications.
 
 ## Constraint-based modelling
 
 Constraint-based modelling attempts to model microbial metabolic networks in terms of the fluxes of various constituent reactions. In simpler terms, these are same network of metabolic reactions but with defined reaction stoichiometries and flux values for every reactions. These constraint-based metabolic models will allow us to study different types of interactions present in a microbial community by determining the flux distributions in the metabolic networks. These techniques solve for an objective function by imposing different constraints and derive the fluxes of the reactions through metabolic exchanges which is more similar to solving a constraint-based optimization problem where the objective is high biomass (maximum flux through biomass reaction). Community flux balance analysis (cFBA), OptCom and SMETANA are some of the constraint-based modelling tools. This tutorial will focus on the application community flux balance analysis (cFBA).
 
+## Pre-requisites
+
+### Anaconda for Windows
+Anaconda is a Python distribution with a lot of in-built open-source packages and libraries and it is a efficient package and environment manager.
+* Anaconda can be downloaded from [Download link](https://www.anaconda.com/products/individual).
+* Run the setup.
+* Note the installation location and press Next.
+* We can choose whether to add Anaconda to the PATH environment variable or not. Its advised not to add Anaconda to the PATH environment variable, since this can interfere with other software. Instead, use Anaconda software by opening Anaconda Navigator or the Anaconda Prompt from the Start Menu.
+* You can register Anaconda as your default Python based on your requirement.
+* Click Install and finish the process.
+* You might have to add the paths ```anaconda3/Library/bin``` and ```anaconda3/Scripts``` to the PATH of your environment of system variables if not present already.
+* After all this is done, you can open Anaconda prompt (anaconda3) and type the command ```jupyter notebook``` to launch Jupyter.
+
+**Source** (For more detailed instructions): refer [Installation](https://docs.anaconda.com/anaconda/install/windows/).
+
+If you are a **macOS or Linux** user. The installation process is pretty much the same. Refer this [link](https://docs.anaconda.com/anaconda/install/index.html).
+
+### MATLAB
+Installing MATLAB - instructions
+
+* 
+
+### CobraToolBox for MATLAB
+* Download CobraToolBox from [download link](https://github.com/opencobra/cobratoolbox).
+* Clone the GitHub repository into your computer.
+* Unzip it.
+* Add the path to your installed CobraToolBox folder to MATLAB using the command ```addpath(path to COBRA)```.
+* Then run the command ```initCobraToolbox``` to initialize it. **Note**: This command has to be run everytime after restarting MATLAB.
+
+If you want to download using ```git```, refer [link](https://opencobra.github.io/cobratoolbox/stable/installation.html).
+
 ## How to use this repository
 
-## Examples in this repository
+* Make sure you have all the pre-requisites.
+* We recommend you to create a new folder ```anaconda3/Scripts/iscb-tutorial-matbolic-modelling``` and clone this repository there.
+* For **Graph-based metabolic modelling** exercise, you can open Jupyter Notebook using Anaconda, then the ipython notebook file (Graph-based metabolic modelling.ipynb) can be loaded and run.
+* For **Constraint-based metabolic modelling** exercise;
+  1. Add the ```anaconda3/Scripts/iscb-tutorial-matbolic-modelling``` folder to MATLAB path using the ```addpath(path)``` command.
+  2. Run the command ```edit Constraint_based_metabolic_modelling_using_MATLAB.mlx``` to open the MATLAB live script for execution.
 
 ## Resources
 
@@ -57,4 +93,8 @@ Constraint-based modelling attempts to model microbial metabolic networks in ter
 
 13.	Biggs, M. B., Medlock, G. L., Kolling, G. L. & Papin, J. a. Metabolic network modeling of microbial communities. Wiley Interdiscip. Rev. Syst. Biol. Med. 7, 317–334 (2015). 
 
-14.	Ravikrishnan, A., Nasre, M. & Raman, K. Enumerating all possible biosynthetic pathways in metabolic networks. Sci. Rep. 8, 9932 (2018).  
+14.	Ravikrishnan, A., Nasre, M. & Raman, K. Enumerating all possible biosynthetic pathways in metabolic networks. Sci. Rep. 8, 9932 (2018).
+
+15.	Carr, R., & Borenstein, E. (2012). NetSeed: a network-based reverse-ecology tool for calculating the metabolic interface of an organism with its environment. Bioinformatics, 28(5), 734-735.
+
+16.	Kreimer, A., Doron-Faigenboim, A., Borenstein, E., & Freilich, S. (2012). NetCmpt: a network-based tool for calculating the metabolic competition between bacterial species. Bioinformatics, 28(16), 2195-2197.
