@@ -42,7 +42,7 @@ Installing MATLAB - instructions
 * Download CobraToolBox from [download link](https://github.com/opencobra/cobratoolbox).
 * Clone the GitHub repository into your computer.
 * Unzip it.
-* Add the path to your installed CobraToolBox folder to MATLAB using the command ```addpath(path to COBRA)```.
+* Add the path to your installed CobraToolBox folder to MATLAB using the command ```addpath(path to COBRA)``` in the MATLAB console.
 * Then run the command ```initCobraToolbox``` to initialize it. **Note**: This command has to be run everytime after restarting MATLAB.
 
 If you want to download using ```git```, refer [link](https://opencobra.github.io/cobratoolbox/stable/installation.html).
@@ -50,10 +50,10 @@ If you want to download using ```git```, refer [link](https://opencobra.github.i
 ## How to use this repository
 
 * Make sure you have all the pre-requisites.
-* We recommend you to create a new folder ```anaconda3/Scripts/iscb-tutorial-matbolic-modelling``` and clone this repository there.
+* We recommend you to create a new folder ```anaconda3/Scripts/iscb-tutorial-metabolic-modelling``` and clone this repository there.
 * For **Graph-based metabolic modelling** exercise, you can open Jupyter Notebook using Anaconda, then the ipython notebook file (Graph-based metabolic modelling.ipynb) can be loaded and run.
 * For **Constraint-based metabolic modelling** exercise;
-  1. Add the ```anaconda3/Scripts/iscb-tutorial-matbolic-modelling``` folder to MATLAB path using the ```addpath(path)``` command.
+  1. Add the ```anaconda3/Scripts/iscb-tutorial-metabolic-modelling``` folder to MATLAB path using the ```addpath(path)``` command in the MATLAB console.
   2. Run the command ```edit Constraint_based_metabolic_modelling_using_MATLAB.mlx``` to open the MATLAB live script for execution.
 
 ## Resources
