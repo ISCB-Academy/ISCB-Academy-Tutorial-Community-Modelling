@@ -14,7 +14,7 @@ lac = readCbModel('models_for_constraint_based_modelling/Lactobacillus_rhamnosus
 % Setting the reactions to DMEM 6429 medium.
 
 w = warning ('off','all');
-DietConstraints = adaptVMHDietToAGORA('DMEM', 'AGORA')
+DietConstraints = adaptVMHDietToAGORA('DMEM', 'AGORA');
 bac = useDiet(bac, DietConstraints);
 disp('Metabolites taken up by Bacteroides caccae ATCC 43185:')
 disp(printUptakeBound(bac));
