@@ -17,10 +17,10 @@ w = warning ('off','all');
 DietConstraints = adaptVMHDietToAGORA('DMEM', 'AGORA');
 bac = useDiet(bac, DietConstraints);
 disp('Metabolites taken up by Bacteroides caccae ATCC 43185:')
-disp(printUptakeBound(bac));
+printUptakeBound(bac);
 lac = useDiet(lac, DietConstraints);
 disp('Metabolites taken up by Lactobacillus rhamnosus GG:')
-disp(printUptakeBound(lac));
+printUptakeBound(lac);
 %% Simulating Individual models
 
 bac_sol = optimizeCbModel(bac);
