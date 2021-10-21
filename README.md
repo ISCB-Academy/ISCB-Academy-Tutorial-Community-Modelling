@@ -18,7 +18,9 @@ Constraint-based modelling attempts to model microbial metabolic networks in ter
 
 ## Pre-requisites
 
-### Anaconda for Windows
+### Jupyter Notebook with Python 3.6 or above
+If you do not have Python 3.6 or above, then follow the below instructions to download it. If you have Python >= 3.6 and want to download Jupyter Notebook alone separately then refer this [link](https://jupyter.org/install.html).
+#### Anaconda for Windows
 Anaconda is a Python distribution with a lot of in-built open-source packages and libraries and it is a efficient package and environment manager.
 * Anaconda can be downloaded from [Download link](https://www.anaconda.com/products/individual).
 * Run the setup.
