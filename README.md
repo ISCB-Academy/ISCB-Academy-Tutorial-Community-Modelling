@@ -59,6 +59,10 @@ Installing MATLAB - instructions
   1. Add the ```path_to/anaconda3/Scripts/iscb-tutorial-metabolic-modelling``` folder to MATLAB path using the ```addpath(path)``` command in the MATLAB console.
   2. Run the command ```edit Constraint_based_metabolic_modelling.m``` to open the MATLAB live script for execution.
 
+## Queries
+
+The queries or doubts regarding the topics dealt in this tutorial can be posted in this [Google doc](https://docs.google.com/document/d/1f2saycp03-vfEzSs84Ci_-zAqhrMwR_0skX7IujZwTo/edit?usp=sharing).
+
 ## Resources
 
 * [BiGG](http://bigg.ucsd.edu/), [AGORA](https://www.vmh.life/#home)
