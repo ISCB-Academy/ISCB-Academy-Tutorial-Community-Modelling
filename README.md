@@ -41,13 +41,13 @@ Installing MATLAB - instructions
 * 
 
 ### CobraToolBox for MATLAB
-* Download CobraToolBox from [download link](https://github.com/opencobra/cobratoolbox).
-* Clone the GitHub repository into your computer.
+* Download CobraToolBox from [download link](https://drive.google.com/file/d/12N5sIjHpjPW8GUjanTKlT-W_WCc0zYql/view?usp=sharing).
+* This is a Google Drive link. Download the zip file.
 * Unzip it.
 * Add the path to your installed CobraToolBox folder to MATLAB using the command ```addpath(path to COBRA)``` in the MATLAB console.
 * Then run the command ```initCobraToolbox``` to initialize it. **Note**: This command has to be run everytime after restarting MATLAB.
 
-If you want to download using ```git```, refer [link](https://opencobra.github.io/cobratoolbox/stable/installation.html).
+**Note**: This is a slightly old version. The latest version of CobraToolBox is not compatible with the models used in this exercise, so kindly download this.
 
 ## How to use this repository
 
