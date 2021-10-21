@@ -8,6 +8,16 @@ In this tutorial, we seek to provide a brief overview of the key modelling parad
 1. Graph-based modelling
 2. Constraint-based modelling
 
+## Agenda
+| Time&nbsp;(UTC)| Topics                                                                                                                                                                         | Presenter(s) |   |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|---|
+| 0900&#8209;0940 | Introduction to metabolic modelling                                                                                                                                      |              |
+| 0940-0950 | Short break                                                                                                                                                                    |@karthikraman              |
+| 0950-1040 | Overview of methods for metabolic modelling of microbiomes                                                                                                                     |              |
+| 1040-1050 | Short break                                                                                                                                                                    |@aarthi31              |
+| 1050-1150 | Hands-on session: * Using graph-based tools such as MetQuest to understand bacterial interactions in microbiomes * Simulating constraint-based models of microbial communities |              |
+|           |                                                                                                                                                                                |@dinesh-kumar-k-b, @aarthi31, @karthikraman              |
+
 ## Graph-based modelling
 
 This involves construction of genome-scale metabolic networks (GSMN) consisting of thousands of reactions and metabolites, which capture vital metabolic pathways such as the biosynthesis of amino acids and lipids, ATP synthesis, as well as transport of molecules inside the cells which allows us to model microbial interactions as part of a complex graph capturing the exchange of several metabolites between the constituent organisms, and consequently, shed light on the nature of the interactions between the organisms<sup>14</sup>. This approach provides qualitative insights by considering the topology of the metabolic networks. Here, the metabolic networks are analysed for their ability to produce metabolites. The interdependencies between the organisms are defined based on the metabolites that one organism provides the other. MetQuest<sup>14</sup>, NetSeed<sup>15</sup>, NetCmpt<sup>16</sup> are some of the graph-based modelling tools. This tutorial will introduce you to MetQuest and its applications.
