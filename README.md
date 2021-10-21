@@ -8,15 +8,6 @@ In this tutorial, we seek to provide a brief overview of the key modelling parad
 1. Graph-based modelling
 2. Constraint-based modelling
 
-## Agenda
-| Time&nbsp;(UTC)| Topics                                                                                                                                                                         | Presenter(s) |   |
-|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|---|
-| 0900&#8209;0940 | Introduction to metabolic modelling                                                                                                                                      |              |
-| 0940-0950 | Short break                                                                                                                                                                    |@karthikraman              |
-| 0950-1040 | Overview of methods for metabolic modelling of microbiomes                                                                                                                     |              |
-| 1040-1050 | Short break                                                                                                                                                                    |@aarthi31              |
-| 1050-1150 | Hands-on session: * Using graph-based tools such as MetQuest to understand bacterial interactions in microbiomes * Simulating constraint-based models of microbial communities |              |
-|           |                                                                                                                                                                                |@dinesh-kumar-k-b, @aarthi31, @karthikraman              |
 
 ## Graph-based modelling
 
