@@ -53,8 +53,8 @@ If you want to download using ```git```, refer [link](https://opencobra.github.i
 * We recommend you to create a new folder ```anaconda3/Scripts/iscb-tutorial-metabolic-modelling``` and clone this repository there.
 * For **Graph-based metabolic modelling** exercise, you can open Jupyter Notebook using Anaconda, then the ipython notebook file (Graph-based metabolic modelling.ipynb) can be loaded and run.
 * For **Constraint-based metabolic modelling** exercise;
-  1. Add the ```anaconda3/Scripts/iscb-tutorial-metabolic-modelling``` folder to MATLAB path using the ```addpath(path)``` command in the MATLAB console.
-  2. Run the command ```edit Constraint_based_metabolic_modelling_using_MATLAB.mlx``` to open the MATLAB live script for execution.
+  1. Add the ```path_to/anaconda3/Scripts/iscb-tutorial-metabolic-modelling``` folder to MATLAB path using the ```addpath(path)``` command in the MATLAB console.
+  2. Run the command ```edit Constraint_based_metabolic_modelling.m``` to open the MATLAB live script for execution.
 
 ## Resources
 
