@@ -49,7 +49,7 @@ Installing MATLAB - instructions
 * 
 
 ### CobraToolBox for MATLAB
-* Download CobraToolBox from [download link](https://drive.google.com/file/d/12N5sIjHpjPW8GUjanTKlT-W_WCc0zYql/view?usp=sharing).
+* Download CobraToolBox from [download link](https://drive.google.com/drive/folders/1_rTXu5znRvyX3w8UutskvHjJDfqQIm-z?usp=sharing).
 * This is a Google Drive link. Download the zip file.
 * Unzip it.
 * Add the path to your installed CobraToolBox folder to MATLAB using the command ```addpath(path to COBRA)``` in the MATLAB console.
