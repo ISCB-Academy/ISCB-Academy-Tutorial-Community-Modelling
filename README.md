@@ -1,5 +1,6 @@
 #### ISCB-Academy-Tutorial-Community-Modelling
 [![CC BY 4.0][cc-by-shield]][cc-by]
+[![DOI](https://zenodo.org/badge/401609846.svg)](https://zenodo.org/badge/latestdoi/401609846)
 
 
 # Metabolic modelling of microbial interactions in microbiomes
